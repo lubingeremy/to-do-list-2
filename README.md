@@ -1,3 +1,9 @@
+Project based on [Brian Design's video](https://www.youtube.com/watch?v=E1E08i2UJGI&t=1288s)
+
+[React icons pack](https://react-icons.github.io/react-icons)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
