@@ -22,20 +22,22 @@ function TodoForm(props) {
 
   return (
     <form className='todoForm' onSubmit={handleSubmit}>
-      <label for="text">Add todo</label>
-      <input
-        className='todoInput'
-        type="text" 
-        placeholder='ex: Be awsome'
-        value={input}
-        name='text'
-        onChange={handleChange}
-      />
-      <button
-        className='todoButton'
-      >
-        Add
-      </button>
+      <label for="text">What's the plan for today?</label>
+      <div>
+        <input
+          className='todoInput'
+          type="text" 
+          placeholder='ex: Be awsome'
+          value={input}
+          name='text'
+          onChange={handleChange}
+        />
+        <button
+          className='todoButton'
+        >
+          Add
+        </button>
+      </div>
     </form>
   )
 }
