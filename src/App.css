@@ -18,14 +18,19 @@ h1{
 }
 
 form{
+  height: 10rem;
+  padding: 2rem;
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background: rgb(206,125,165);
+  background: linear-gradient(90deg, rgba(206,125,165,1) 0%, rgba(92,65,93,1) 45%); 
 }
 
 input[type=text]{
   height: 5rem;
   width: 20rem;
-  /* border: ; */
+  border: none;
+  background-color: rgba(0,0,0,0.3);
 }
